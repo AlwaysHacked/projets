@@ -1,0 +1,6 @@
+#!/bin/bash
+make clean
+make projet
+g++ main.cpp tools.o pg1pg2.o pg3pg4.o -o .projet
+sudo ./.projet
+rm -f *.o projet

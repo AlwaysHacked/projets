@@ -1,0 +1,23 @@
+`Delete` function before leaving							?
+
+Add instructions												0%
+
+Split the source code in multiple files and write a makefile	20%
+
+Pick a random number for the % of enc/dec function				0%
+
+Add a menu														10%
+	1. Split the code in different files
+		- the design files have only navigation commands
+		- the main code is kept in `tools` file
+	2. Add a global functions
+		- return button to the main menu
+		- find and execute
+	3. Add a password generator
+	
+Keep the key encrypted and hashed, every time user enters a key compare them. If !similar ask the user if he wants to add one or just made a mistake
+																0%
+Add a `Secret` part, acces with password						0%
+
+Add a pic for each account? Ask for it the user or find it on the internet 
+																0%

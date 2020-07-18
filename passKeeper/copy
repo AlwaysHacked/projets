@@ -1,0 +1,7 @@
+#!/bin/bash
+
+path='/home/kali/copy/passwords/'
+make clean
+rm -r $path
+mkdir $path
+cp * $path

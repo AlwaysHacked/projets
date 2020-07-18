@@ -1,0 +1,31 @@
+clear
+echo "Bonjour, ceci est le projet d'info 121 de Serge et d'Omar.
+Ce script vous permet de tout compiler et lancer la simulation si vous le souhaitez.
+
+"
+. ./ask.sh
+make clean
+make testcoord
+make testgrille
+make testtermite
+make projet
+echo 
+echo -----------------------------------------------------------------
+echo Exécution des testes en cours...
+./testcoord
+echo testcoord exécuté   !
+./testgrille
+echo testgrille exécuté  !
+./testtermite
+echo testtermite exécuté !
+echo -----------------------------------------------------------------
+echo
+echo
+echo -n "Voulez-vous lancer la simulation maintenant ?(y ou n) "; read reponse; echo
+if [ $reponse = "y" ]
+then
+	clear
+	./projet
+else
+	echo "Sachez que tout a ete compile"; echo "vous n'etes pas oblige de compiler avec la commande make pour lancer la simulation."
+fi

@@ -1,0 +1,3 @@
+#!/bin/bash
+./chrono.sh
+xterm -e "sh mpgs"

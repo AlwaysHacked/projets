@@ -1,0 +1,2 @@
+#!/bin/bash
+geany *.cpp *.hpp improvements.txt makefile &

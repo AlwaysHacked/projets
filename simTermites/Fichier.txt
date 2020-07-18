@@ -1,0 +1,42 @@
+Nom :				TP :	TD :		Numéro de tel. :
+Omar HADDAD			2B		B4			07 85 77 22 93
+Seroyzha HAKOBYAN	5A		A7			07 53 43 98 20
+
+
+* Avez-vous usuellement une bonne connexion lorsque vous utilisez Collaborate ?
+
+Seryozha
+- Oui
+
+Omar
+- Oui
+
+* Avez-vous un micro (intégré à votre ordinateur ou externe) qui vous permet de vous exprimer directement à l'oral lors
+d'une session Collaborate ?
+
+Seryozha
+- Oui
+
+Omar
+- Oui
+
+	Description des executables :
+    
+!!!! Utiliser le script pour TOUT FAIRE EN MEME TEMPS (voir la fin)
+    
+- On peut créer 4 exécutables a l'aide du Makefile. 
+testcoord -------> 'make testcoord'
+testgrille ------> 'make testgrille'
+testtermite -----> 'make testtermite'
+projet ----------> 'make'
+
+Nous tenons à preciser que les 3 premiers fichiers sont des tests pour les fonctions des fichiers 'coord.cpp', 'grille.cpp' et 'termite.cpp' respectivement.
+
+- Le fichier 'donnee.hpp' contient toutes les structures, les énumerations et les variables globales.
+
+
+POUR FAIRE TOUT EN MEME TEMPS :
+
+- Nous avons créé un script shell pour faciliter la compilation du projet, c'est le 'make.sh'. Pour s'en servir, il faut
+taper les commandes 'chmod 755 make.sh' (une seule fois) et puis '. ./make.sh'(à chaque fois que l'on veut compiler) dans le terminal. Ceci 
+va d'abord supprimer les fichiers restés de l'ancienne compilation et re-compiler le projet, ainsi que les tests, et lancer tout, tout, tout!
