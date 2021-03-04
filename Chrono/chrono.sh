@@ -22,7 +22,7 @@ secCounter(){	#hour min sec
 	do
 		echo -ne "\tTime passed ${hour}:${min}:${sec}"\\r
 		sec=`expr $sec + 1`
-		#~ sleep 0.05
+		sleep 1
 	done
 	echo -ne "\t\t\t\t\t\t"\\r
 }
