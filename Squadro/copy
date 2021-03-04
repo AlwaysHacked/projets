@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#path must take the file's name automatically
+echo -n "Please write the file's name: "; read name
+path="~/copy/${name}"
+
+if [ ! -d ~/copy ]; then
+	mkdir ~/copy; mkdir $path
+
+elif [ -d ~/copy && ! -d $path ]; then 
+	mkdir $path;
+fi
+
+make clean
+rm -r $path
+mkdir $path
+cp * $path

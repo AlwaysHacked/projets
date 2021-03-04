@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#idee: tout sauf les .o et les choses compiles
+geany *.cpp *.hpp makefile &

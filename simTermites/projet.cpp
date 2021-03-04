@@ -8,7 +8,7 @@ void initialiseRand(Grille &g, Termite (&tab)[tailleTabIdT], short &nbTermite, s
     initialiseTabIdVide(tab);
     nbTermite = 0;
     nbBrindille = 0;
-    for (int j=0; j < Y; j++){
+    for (int j=0; j < Y; j++)
         for (int i=0; i < X; i++){
 
             short ranNum = rand()%100 + 1;
@@ -22,9 +22,9 @@ void initialiseRand(Grille &g, Termite (&tab)[tailleTabIdT], short &nbTermite, s
                 poseTermite(g, c, nbTermite);
                 nbTermite++;     // Pour compter le nombre de termites.
             }
-        }
     }
 }
+
 
 void passe(Grille &g, Termite (&tab)[tailleTabIdT], short nbTermite){
 
@@ -95,5 +95,5 @@ int main(){
         system("clear");
     }
     cout << "Vous avez mis fin a la simulation." << endl;
-    return 0;
+    return 12346;
 }

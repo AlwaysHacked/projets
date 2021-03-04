@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#path must take the file's name automatically
+
+path="~/copy/${1}"
+
+if [ ! -d ~/copy ]; then
+	mkdir ~/copy; mkdir $path
+
+elif [ -d ~/copy && ! -d $path ]; then 
+	mkdir $path;
+fi
+
+make clean
+rm -r $path
+mkdir $path
+cp * $path

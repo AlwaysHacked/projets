@@ -9,7 +9,7 @@
  * @param[in] int col: colonne
  * @return Coord : les coordonnees crees
  **/
-Coord creeCoord(int lig, int col);
+Coord creeCoord(int, int);
 
 /** Affiche les coordonnees que comporte le type abstrait Coord
  * @param[in] Coord c: coordonnees

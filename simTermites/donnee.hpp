@@ -14,10 +14,10 @@ using namespace std;
 ////////////////////////////////////////// 
 // Constantes :
 
-static const short X = 90, Y = 40;
+static const short X = 43, Y = 135;
 static const short tempsVide = 6;
 
-static const unsigned short proba_t = 5, proba_b = 10;  // Les densités des Brindilles et termites (sur 100)
+static const unsigned short proba_t = 4, proba_b = 4;  // Les densités des Brindilles et termites (sur 100)
 
 const short taille = X * Y;
 const unsigned short tailleTabIdT = taille*(proba_t+10)/100;  // La taille du tableau des termites. 
